@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhilash Cold Storage services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <ul>
+      <li style="font-size:20px ;"><a href="#contact">Contact</a></li>
+      <li style="font-size:20px ;"><a href="#services">services</a></li>
+      <li style="font-size:20px ;"><a href="index.html">Home</a></li>
+      <li style="float:left;font-size: 30px;"><a class="ative" href="index.html"><img src="tree-11-48.ico">Abhilash Cold
+          storage servives</a></li>
+
+    </ul>
+
+  </header>
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+
+      <img src="a.jpg" style="width:100%; height:500px;">
+      <div class="text">
+        <h2>Abhilash cold storage services</h2>
+        <p>When we serve,we serve heartly</p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="1.jpg" style="width:100%; max-height: 500px;">
+      <div class="text" style="font-size:50px;margin-bottom:80px;">
+        <h4>Supreme quality brand,enriched with technology</h4>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+
+      <img src="3.jpg" style="width:100%;max-height: 500px;">
+      <div class="text" style="font-size:50px;">
+        <h3>Sofasticated services with widespread infrastructure</h3>
+      </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+
+  <div  class="dotts" style="text-align:center;background-color: black;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+ <div class="services">
+  <div class="container1">
+    <div class="prop">
+      <div class="img">
+        <img src="page-quality-3-64.ico">
+      </div>
+      <div class="head">
+        <p>Quality Assuarance</p>
+      </div>
+      <div class="disc">At Abhilash cold storage services,we provide the best quality products to our cuostmers.
+        No Chemicale preservatives are used,the products are chained directly from field,storage and to the customers.
+        <p>At Abhilash cold storage services,we provide the best quality products to our cuostmers.
+          No Chemicale preservatives are used,the products are chained directly from field,storage and to the customers.
+          </p>
+      </div>
+      
+
+    </div>
+  </div>
+
+
+  <div class="container1">
+    <div class="prop">
+      <div class="img" >
+        <img src="services-64.ico">
+      </div>
+      <div class="head">
+        <p>Customer Services</p>
+      </div>
+      <div class="disc">
+        <p>Our teams specialise in clearing cargo and getting quicker customer clearances for your perishable goods.
+         </p>
+      </div>
+     
+
+    </div>
+  </div>
+  <div class="container1">
+    <div class="prop">
+      <div class="img" >
+        <img src="factory-64.ico">
+      </div>
+      <div class="head">
+        <p>Infrastructure</p>
+      </div>
+      <div class="disc">
+        <p>
+          We are a brand with a vision, a vision to provide superlative services in the arena of cold stor
+          age and freeze storage industries by employing the unmatched market knowledge and dedication of our team.</p>
+      </div>
+
+</div>
+</div>
+</div>
+
+<div class="about">
+  <h1> About us</h1>
+  <p>We are not just a cold storage industry, we are a place to preserve and protect the laurels of nature.
+     The fresh products of fields are directly preserved and maintained .
+      We offer dedicated warehouse services and freeze storage solutions. We procure the latest technological equipment and vast storage
+       services for a wide range of customer assistance.<br>
+
+    We respect our values and thoughtfully approach our profession and encourage new paths to development. We respect our work and employees and we can proudly proclaim ' We are a big happy family.'</p>
+</div>
+
+  <div class="parallax"></div>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        
+        <div class="number">
+          <p>Cold Storage Services</p>
+        </div>
+        <div class="name">
+          <p>We cater to a diverse need of cold storage services and offer storage for fresh fruits, vegetables, dairy, 
+            and various frozen products. Our cold storages are inducted to various temperature ranges</p>
+        </div>
+        
+
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="content">
+       
+        <div class="number">
+          <p>WareHousing Services</p>
+        </div>
+        <div class="name">
+          <p>At Orchard Fresh, we also propose proper warehouse services which assure efficient handling and protection of products.
+             We also guarantee no leaks or spoilage at our premises</p>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="content">
+       
+        <div class="number">
+          <p>Transportation</p>
+        </div>
+        <div class="name">
+          <p>We also devote ourselves to transport and ship the products to the desired destinations.
+             During the transportation also we keep a keen eye and deliver the products safely and with higinity</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<div class="footer">
+  <footer>
+    <div class="content">
+         
+          <div class="topic">Contact us</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>91+ 8151875934</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>sangeethadbit@gmail.com</a>
+          </div>
+      
+     
+      <div class="right box">
+        <div class="topic">Subscribe us</div>
+        <form action="#">
+          <input type="text" placeholder="Enter email address">
+          <input type="submit" name="" value="Send">
+          <div class="media-icons">
+            
+            
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="bottom" >
+      <p>Copyright © 2021 <a href="#">Abhilash cold storage services</a> All rights reserved</p>
+    </div>
+  </footer>
+</div>
+</body>
+
+</html>
